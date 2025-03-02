@@ -1,6 +1,6 @@
 Project Demo From My Side : 
 
-Application Demo: 
+Application : 
 
 ![image](https://github.com/user-attachments/assets/e58cd27a-3b11-429e-996a-d4c43d680357)
 
@@ -8,7 +8,7 @@ Neon :
 
 ![image](https://github.com/user-attachments/assets/3b5375d0-1bfc-4cd6-bebd-8345a47033a4)
 
-GitHub Actions For Opening Pull request : 
+GitHub Actions on Opening Pull request : 
 
 ![image](https://github.com/user-attachments/assets/c62f4989-6ece-44cd-ad1d-b6b8df56fca2)
 
@@ -21,7 +21,7 @@ Neon Ephemeral Branch  :
 
 ![image](https://github.com/user-attachments/assets/210e2bca-87c9-45c2-a8c9-a75b9ac137a4)
 
-GitHub Actions For Closing Pull request : 
+GitHub Actions on Closing Pull request : 
 
 ![image](https://github.com/user-attachments/assets/3ab092d8-47e0-4cbd-ac5d-892790aff24f)
 
