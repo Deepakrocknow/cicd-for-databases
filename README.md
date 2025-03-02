@@ -1,105 +1,15 @@
-# Node.js PostgreSQL Todo Application
+Project Demo From My Side : 
+![image](https://github.com/user-attachments/assets/e58cd27a-3b11-429e-996a-d4c43d680357)
+![image](https://github.com/user-attachments/assets/3b5375d0-1bfc-4cd6-bebd-8345a47033a4)
+![image](https://github.com/user-attachments/assets/c62f4989-6ece-44cd-ad1d-b6b8df56fca2)
+when we create a pull request it open a new branch and when we merge the pull request or close it it delete it preview branch 
+![image](https://github.com/user-attachments/assets/210e2bca-87c9-45c2-a8c9-a75b9ac137a4)
+![image](https://github.com/user-attachments/assets/3ab092d8-47e0-4cbd-ac5d-892790aff24f)
 
-A simple Node.js application demonstrating database migrations with PostgreSQL using `node-pg-migrate`.
+## Scripts : 
 
-## Features
-
-- PostgreSQL database integration
-- Database migrations using `node-pg-migrate`
-- Environment-based configuration
-- Simple todo management system
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- PostgreSQL database server
-- npm (Node Package Manager)
-
-## Project Structure
-
-```
-├── migrations/
-│   └── 1698765432345_create-todos-table.js
-├── .env.example
-├── .env
-├── index.js
-├── package.json
-└── README.md
-```
-
-## Setup
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file based on `.env.example`:
-   ```bash
-   cp .env.example .env
-   ```
-4. Update the `.env` file with your PostgreSQL connection details:
-   ```
-   DATABASE_URL=postgres://username:password@localhost:5432/database_name
-   ```
-
-## Database Migrations
-
-This project uses `node-pg-migrate` for managing database schema changes.
-
-### Available Migration Commands
-
-- Run all pending migrations:
-  ```bash
-  npm run migrate:up
-  ```
-- Revert the last migration:
-  ```bash
-  npm run migrate:down
-  ```
-
-### Current Migrations
-
-1. `1698765432345_create-todos-table.js`
-   - Creates the initial `todos` table with:
-     - `id` (Primary Key)
-     - `title` (varchar)
-     - `completed` (boolean)
-     - `created_at` (timestamp)
-
-## Running the Application
-
-Start the application:
-```bash
-npm start
-```
-
-The application will:
-1. Connect to the PostgreSQL database
-2. Display the current timestamp
-3. List all todos in the database
-
-## Environment Variables
-
-| Variable      | Description                | Example                                           |
-|--------------|----------------------------|---------------------------------------------------|
-| DATABASE_URL | PostgreSQL connection URL  | postgres://username:password@localhost:5432/todos |
-
-## Security Notes
-
-- Never commit the `.env` file to version control
-- Keep your database credentials secure
-- The `.env.example` file should not contain actual credentials
-
-## Scripts
-
-- `npm start` - Run the application
+- `node index.js or npm start` - Start The application
 - `npm run migrate` - Run database migrations
 - `npm run migrate:up` - Apply pending migrations
 - `npm run migrate:down` - Revert the last migration
-
-## Dependencies
-
-- `pg` - PostgreSQL client for Node.js
-- `node-pg-migrate` - Database migration tool
-- `dotenv` - Environment variable management
+- - `npm run migrate:down` - Revert the last migration
