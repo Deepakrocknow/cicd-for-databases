@@ -6,7 +6,7 @@ Project Demo From My Side :
 
 ***
 
->>> When we create a pull request, it automatically opens a new branch for the proposed changes. Once the pull request is merged or closed, the preview branch gets deleted to keep the repository clean. **Neon** is used for ephemeral branches, enabling temporary database instances that spin up with each branch and get removed after merging or closing, ensuring isolated testing and efficient resource management. <<<
+>>> When we create a pull request, it automatically opens a new branch for the proposed changes. Once the pull request is merged or closed, the preview branch gets deleted to keep the repository clean. **Neon** is used for ephemeral branches, enabling temporary database instances that spin up with each branch and get removed after merging or closing, ensuring isolated testing and efficient resource management. >>>
 
 ***
 
